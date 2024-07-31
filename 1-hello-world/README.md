@@ -1,18 +1,6 @@
 # RabbitMQ tutorial - "Hello world!"
 ## Development
-```sh
-# create virtual environment
-python3 -m venv venv
-# activate virtual environment
-source venv/bin/activate
-```
-## Useful commands
-```sh
-# update requirements.txt
-pip freeze > requirements.txt
-```
-
-Now we can try out our programs in a terminal. First, let's start a consumer, which will run continuously waiting for deliveries:
+First, let's start a consumer, which will run continuously waiting for deliveries:
 
 ```sh
 python receive.py
