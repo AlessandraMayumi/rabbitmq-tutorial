@@ -1,4 +1,4 @@
-# RabbitMQ tutorial - Routing
+# RabbitMQ tutorial - Topic
 
 We're going to use a `topic` exchange in our logging system. The routing keys of logs will have two words: "<facility>.<severity>".
 
